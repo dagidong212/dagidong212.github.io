@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anton B| Web Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome untuk icons (opsional, atau pakai SVG) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <button id="theme-toggle" aria-label="Toggle dark mode">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Anton B</h1>
+      <p class="tagline">Web Developer | HTML, CSS, JavaScript Specialist</p>
+      <p class="location">Based in Palembang, Indonesia</p>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I'm Anton — a passionate beginner Web developer from Palembang. I love crafting clean, responsive, and interactive web experiences using vanilla HTML, CSS, and JavaScript. Currently honing my skills to build fast, user-friendly sites that look great on any device.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3 (Flexbox, Grid, Animations)</div>
+        <div class="skill">JavaScript (DOM, Events, localStorage)</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Git & GitHub</div>
+        <!-- Tambah kalau ada -->
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card fade-in">
+          <img src="/images /image-1.jpg" alt="Personal Portfolio" loading="lazy"/>
+          <h3>Personal Portfolio Website</h3>
+          <p>Responsive single-page portfolio with dark mode toggle and smooth animations. Built with HTML, CSS, JS.</p>
+          <a href="#" target="_blank" class="btn">Live Demo</a>
+          <a href="#" target="_blank" class="btn secondary">GitHub</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card fade-in">
+          <img src="/images /project2.jpg" alt="To-Do App" loading="lazy"/>
+          <h3>Interactive To-Do List App</h3>
+          <p>Task manager with localStorage persistence, add/delete/complete features. Vanilla JS DOM magic.</p>
+          <a href="#" target="_blank" class="btn">Live Demo</a>
+          <a href="#" target="_blank" class="btn secondary">GitHub</a>
+        </div>
+        <!-- Tambah 1-2 lagi -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Tex Me. All rights reserved.</p>
+      <div class="social">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <!-- Tambah kalau ada -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
